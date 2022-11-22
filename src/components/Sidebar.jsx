@@ -9,7 +9,7 @@ const Sidebar = () => {
   <div className="flex fixed">
       <div
         className="xl:w-52 lg:w-48 duration-300 h-screen p-5 pt-8 bg-white mt-14 relative">
-        <div className="flex gap-x-4 items-center cursor-pointer p-2 hover:bg-gray-400 rounded-md">
+        <div className="flex gap-x-4 items-center cursor-pointer p-2 hover:bg-gray-200 rounded-md">
           <BsHouse
             className="w-6 h-6 rounded duration-500"
            

@@ -20,7 +20,7 @@ const Sidebar = () => {
             Home
           </h1>
         </div>
-        <div className="flex gap-x-4 cursor-pointer items-center mt-6 p-2 hover:bg-gray-400 rounded-md">
+        <div className="flex gap-x-4 cursor-pointer items-center mt-6 p-2 hover:bg-gray-200 rounded-md">
           <BsPeople
             className="w-6 h-6 rounded duration-500"           
           />
@@ -30,7 +30,7 @@ const Sidebar = () => {
             Community
           </h1>
         </div>
-        <div className="flex gap-x-4 items-center mt-6 cursor-pointer p-2 hover:bg-gray-400 rounded-md">
+        <div className="flex gap-x-4 items-center mt-6 cursor-pointer p-2 hover:bg-gray-200 rounded-md">
           <BsChat
             className="w-6 h-6 rounded duration-500"
            
@@ -41,7 +41,7 @@ const Sidebar = () => {
             Messages
           </h1>
         </div>
-        <div className="flex gap-x-4 items-center mt-6 cursor-pointer p-2 hover:bg-gray-400 rounded-md">
+        <div className="flex gap-x-4 items-center mt-6 cursor-pointer p-2 hover:bg-gray-200 rounded-md">
           <BsBell
             className="w-6 h-6 rounded duration-500"
             
@@ -52,7 +52,7 @@ const Sidebar = () => {
             Notification
           </h1>
         </div>
-        <div className="flex gap-x-4 items-center mt-6 cursor-pointer p-2 hover:bg-gray-400 rounded-md">
+        <div className="flex gap-x-4 items-center mt-6 cursor-pointer p-2 hover:bg-gray-200 rounded-md">
           <BsCompass
             className="w-6 h-6 rounded duration-500"
             
@@ -63,7 +63,7 @@ const Sidebar = () => {
             Explore
           </h1>
         </div>
-        <div className="flex gap-x-4 items-center mt-6 cursor-pointer p-2 hover:bg-gray-400 rounded-md">
+        <div className="flex gap-x-4 items-center mt-6 cursor-pointer p-2 hover:bg-gray-200 rounded-md">
           <BsPerson
             className="w-6 h-6 rounded duration-500"
           
@@ -74,7 +74,7 @@ const Sidebar = () => {
             Profile
           </h1>
         </div>
-        <div className="flex gap-x-4 items-center mt-6 cursor-pointer p-2 hover:bg-gray-400 rounded-md">
+        <div className="flex gap-x-4 items-center mt-6 cursor-pointer p-2 hover:bg-gray-200 rounded-md">
           <BsGear
             className="w-6 h-6 rounded duration-500"
             

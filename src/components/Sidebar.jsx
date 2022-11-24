@@ -8,88 +8,88 @@ const Sidebar = () => {
  <div>
   <div className="flex fixed h-screen">
     
-      <div className="xl:w-52 lg:w-48 duration-300 p-5 pt-6 bg-slate-100 border-r relative">
+      <div className="xl:w-52 lg:w-48 p-5 pt-6 bg-slate-100 border-r relative">
            <a href="/" className="flex">
             <img src="img/Redgrip.png" className="w-28 " alt="" />
           </a>
           
         <div className="flex gap-x-4 items-center cursor-pointer mt-8 p-2 hover:bg-gray-200 rounded-md hover:scale-105 delay-75">
           <BsHouse
-            className="w-6 h-6 rounded duration-500"
+            className="w-6 h-6 rounded"
            
           />
           <h1
-            className="origin-left cursor-pointer font-medium duration-300"
+            className="cursor-pointer font-medium"
           >
             Home
           </h1>
         </div>
         <div className="flex gap-x-4 cursor-pointer items-center mt-4 p-2 hover:bg-gray-200 rounded-md hover:scale-105 delay-75">
           <BsPeople
-            className="w-6 h-6 rounded duration-500"           
+            className="w-6 h-6 rounded"           
           />
           <h1
-            className="origin-left font-medium duration-300"
+            className="font-medium"
           >
             Community
           </h1>
         </div>
         <div className="flex gap-x-4 items-center cursor-pointer mt-4 p-2 hover:bg-gray-200 rounded-md hover:scale-105 delay-75">
           <BsChat
-            className="w-6 h-6 rounded duration-500"
+            className="w-6 h-6 rounded"
            
           />
           <h1
-            className="origin-left font-medium duration-300"
+            className="font-medium"
           >
             Messages
           </h1>
         </div>
         <div className="flex gap-x-4 items-center cursor-pointer mt-4 p-2 hover:bg-gray-200 rounded-md hover:scale-105 delay-75">
           <BsBell
-            className="w-6 h-6 rounded duration-500"
+            className="w-6 h-6 rounded"
             
           />
           <h1
-            className="origin-left font-medium duration-300"
+            className="font-medium"
           >
             Notification
           </h1>
         </div>
         <div className="flex gap-x-4 items-center cursor-pointer mt-4 p-2 hover:bg-gray-200 rounded-md hover:scale-105 delay-75">
           <BsCompass
-            className="w-6 h-6 rounded duration-500"
+            className="w-6 h-6 rounded"
             
           />
           <h1
-            className="origin-left font-medium duration-300"
+            className="font-medium"
           >
             Explore
           </h1>
         </div>
         <div className="flex gap-x-4 items-center cursor-pointer mt-4 p-2 hover:bg-gray-200 rounded-md hover:scale-105 delay-75">
           <BsPerson
-            className="w-6 h-6 rounded duration-500"
+            className="w-6 h-6 rounded"
           
           />
           <h1
-            className="origin-left font-medium duration-300"
+            className="font-medium"
           >
             Profile
           </h1>
         </div>
         <div className="flex gap-x-4 items-center cursor-pointer mt-4 p-2 hover:bg-gray-200 rounded-md hover:scale-105 delay-100">
           <BsGear
-            className="w-6 h-6 rounded duration-500"
+            className="w-6 h-6 rounded"
             
           />
           <h1
-            className="origin-left font-medium duration-300"
+            className="font-medium"
           >
             Setting
           </h1>
         </div>
-        <div className="flex md:order-2 p-1 mt-6 gap-x-4 rounded-md cursor-pointer hover:bg-gray-200 hover:scale-105 delay-75">
+        <div className="flex md:order-2 p-1 mt-6 gap-x-3 rounded-md cursor-pointer hover:bg-gray-200 hover:scale-105 delay-75">
             <img
               className="w-8 h-8 rounded-full"
               src="img/character.jpg"

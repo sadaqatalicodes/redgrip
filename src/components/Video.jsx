@@ -3,10 +3,10 @@ import React from "react";
 const Video = () => {
   return (
     <div className='overflow-hidden scroll-smooth"'>
-      <div className="h-auto w-auto bg-white">
+      <div className="h-auto w-auto bg-white ml-3">
         <div>
-          <img src="img/cover.jfif" className="xl:w-64 xl:h-44 lg:w-72 lg:h-44 md:w-72 md:h-44 sm:w-96 sm:h-52 x rounded-lg mt-6" alt="" />
-            <div className="xl:w-64 lg:w-72 md:w-72 sm:w-96">
+          <img src="img/cover.jfif" className="xl:w-64 xl:h-44 lg:w-64 lg:h-44 md:w-72 md:h-44 sm:w-96 sm:h-52 rounded-lg mt-6 " alt="" />
+            <div className="xl:w-64 lg:w-64 md:w-72 sm:w-96">
             <h5 className="font-medium lg:text-base md:text-lg ">
               Neha Kakkar, Rohan Preet Barish Mein Tum
             </h5>

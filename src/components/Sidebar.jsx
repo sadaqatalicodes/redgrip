@@ -8,7 +8,7 @@ const Sidebar = () => {
  <div>
   <div className="flex fixed h-screen">
     
-      <div className="xl:w-52 lg:w-48 p-5 pt-6 bg-slate-100 border-r relative">
+      <div className="xl:w-52 lg:w-48 md:w-48 sm:44 p-5 pt-6 bg-slate-100 border-r relative">
            <a href="/" className="flex">
             <img src="img/Redgrip.png" className="w-28 " alt="" />
           </a>
